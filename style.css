@@ -1,0 +1,198 @@
+@font-face {
+    font-family: leiko;
+    src: url(/font/Leiko-Regular.ttf);
+}
+@font-face {
+    font-family: gilroy;
+    src: url(/font/Gilroy-Medium.e7e7c091.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    /* height: 100%; */
+}
+.overlay1 {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #e7e2e297;
+  }
+  
+
+  .middle-img{
+    width: 100%;
+    height: 60vh;
+  }
+  .middle-img>img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .nav-btm{
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 25vh; */
+    background-color: rgb(237, 237, 237);
+  }
+  .nav-btm>a{
+    text-decoration: none;
+    background-color: lightgrey;
+    padding: 2vh 4vw;
+    font-size: 20px;
+    margin-bottom: 2vh;
+  }
+  .nav-btm>h1{
+    padding: 3vw;
+    /* font-family: leiko; */
+    font-family: voyage;
+
+    font-size: 30px;
+    background-color: rgba(221, 222, 220, 0.438);
+  }
+  .nav-btm>p{
+    margin-top: 3vh;
+    width: 70%;
+    font-size: 10px;
+    font-family: gilroy;
+  }
+@media screen and (max-width:600px) {
+  .middle-img{
+    width: 100%;
+    height: 30vh;
+  }
+  .middle-img>img{
+    background-size: cover;
+  }
+  /* .nav-btm>a{
+    font-size: 3vw;
+  } */
+}
+  /* ================== new-Product========== */
+
+  .new-Product{
+    padding-top: 10vh;
+    width: 100%;
+    /* height: 100vh; */
+    background-color: rgb(237, 237, 237);
+  }
+
+  .new-Product>h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: leiko;
+    margin-bottom: 5vh;
+  }
+ 
+  .scroll-container{
+    /* padding-top: 2vh; */
+    /* padding-bottom: 2vh; */
+    display: flex;
+    /* gap: 4vw; */
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(237, 237, 237);
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+    /* white-space: nowrap; */
+    /* overflow: auto; */
+  }
+  ::-webkit-scrollbar{
+    text-decoration: none;
+  }
+  
+
+
+  .scroll-container .swiper {
+    width: 100%;
+    height: 95%; 
+    /* background-color: rgba(0, 128, 0, 0.979); */
+  }
+  
+ 
+
+
+  /* =====================shop============================= */
+  .Shop{
+    padding-top: 5vh;
+    width: 100%;
+    /* height: 100vh; */
+    background-color: rgb(237, 237, 237);
+    padding-bottom: 5vh;
+  }
+  .Shop>h1{
+    text-align: center;
+    font-family: leiko;
+    font-size: 3vw;
+  }
+  .Shop .shop-product{
+    padding: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    column-gap: 7vh;
+    row-gap: 15vh;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 70vh; */
+    /* background-color: lightgray; */
+  }
+  .shop-product .box{
+    width: 30vw;
+    height: 30vh;
+    background-color: lightblue;
+  }
+  .box-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 1vw;
+    position: relative;
+    margin-top: 3vh;
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(228, 221, 221); */
+  }
+  .box-c .img-box {
+    text-align: center;
+    width: 100%;
+    height: 90%;
+  }
+  .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* background-size: cover; */
+  }
+  .box-c h3 {
+    font-size: 1.5rem;
+    font-family: gilroy;
+    font-weight: 400;
+  }
+  .box-c h5 {
+    /* font-weight: 400; */
+    font-weight: 100;
+    color: rgba(57, 53, 53, 0.696);
+    /* width: 20%; */
+  }
+  .box-c h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: lightpink;
+    padding: 1vw;
+  }
+  .box-c>h6{
+    color: rgba(75, 71, 71, 0.632);
+  }
+

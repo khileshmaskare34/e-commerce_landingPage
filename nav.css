@@ -1,0 +1,96 @@
+.nav {
+    padding: 4vh 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* height: 15vh; */
+    /* color: white; */
+    background-color: rgba(1, 0, 0, 0);
+  }
+  .overlay1-nav>h1{
+    font-size: 2vmax;
+  }
+  .nav .nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 40%;
+    /* background-color: blue; */
+  }
+  
+  .nav-link .nav-link-i {
+    width: 7vw;
+    height: 3;
+  }
+  .nav-link-i > i {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  .nav-link-i > p {
+    width: 100%;
+    font-size: 0.6rem;
+  }
+  .nav-link>i{
+    display: none;
+  }
+  
+  .nav .nav-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2vw;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .nav-search #first-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+  }
+  #first-form {
+    font-size: 1.5rem;
+  }
+  #first-form input {
+    border: 1px solid rgb(35, 32, 32);
+    color: rgb(77, 70, 70);
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+  }
+
+ 
+  .nav .res-box{
+    width: 100%;
+    /* height: 10vh; */
+    background-color: rgb(227, 220, 220);
+    position: absolute;
+    display: none;
+    top: 5%;
+    right: 0%;
+    flex-direction: column;
+    padding: 2vw 2vh;
+    gap: 3vh;
+    font-size: 20px;
+  }
+  .nav .res-box>h1{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width:600px) {
+    .nav .nav-link .nav-link-i{
+        display: none;
+    }
+    .nav-link>i{
+        display: initial;
+      }
+      
+  }

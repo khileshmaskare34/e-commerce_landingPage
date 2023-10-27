@@ -1,0 +1,86 @@
+.Trainding {
+    padding-bottom: 4vh;
+    display: flex;
+    flex-wrap: wrap; /* Responsive */
+    width: 100%;
+    min-height: 100vh; /* Changed height to min-height for responsiveness */
+    background-color: rgb(237, 237, 237);
+}
+
+.Trainding .trainding-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(255, 255, 255); */
+}
+.trainding-picture>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Trainding .trainding-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(110, 110, 76); */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .Trainding .trainding-picture,
+    .Trainding .trainding-text {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.trainding-text > h1 {
+    text-align: center;
+    font-size: 3vw;
+    font-family: leiko;
+}
+
+.trainding-text .trainding-text-box {
+    padding-left: 2vw;
+    padding-top: 5vh;
+    margin-top: 2vh;
+    width: 80%;
+    height: 70%;
+    background-color: lightyellow;
+}
+
+h1 {
+    font-family: leiko;
+    font-size: 2.5vw;
+}
+
+h2 {
+    font-family: leiko;
+    font-size: 1.8vw;
+    color: rgba(0, 0, 0, 0.769);
+}
+
+p {
+    font-family: leiko;
+    letter-spacing: 0.1vw;
+    width: 50%;
+    margin-top: 2vh;
+}
+
+h3 {
+    margin-top: 4vh;
+    font-family: leiko;
+    font-size: 1vw;
+}
+
+button {
+    margin-top: 3vh;
+    padding: 1.5vh 2vw;
+    background-color: rgb(215, 232, 215);
+}
